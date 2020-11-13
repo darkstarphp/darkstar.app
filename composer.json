@@ -1,0 +1,26 @@
+{
+    "name": "darkstar/app",
+    "type": "project",
+    "description": "Project skeleton code for DarkStar adr.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zsolt Sándor",
+            "email": "hello@elevenone.space"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "darkstar/darkstar": "^1.0",
+        "darkstar/view": "^1.0"
+    },
+    "scripts": {
+        "serve": "@php ./bin/serve.php"
+    }
+}

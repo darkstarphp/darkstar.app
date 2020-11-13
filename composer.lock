@@ -1,0 +1,357 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e1292a914d7adf11f6d65d2ccf41a86a",
+    "packages": [
+        {
+            "name": "darkstar/darkstar",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkstarphp/darkstar.git",
+                "reference": "730c88953d14d88e61da0ff20dac89d6f140f212"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkstarphp/darkstar/zipball/730c88953d14d88e61da0ff20dac89d6f140f212",
+                "reference": "730c88953d14d88e61da0ff20dac89d6f140f212",
+                "shasum": ""
+            },
+            "require": {
+                "darkstar/http": "~1.0.0",
+                "darkstar/log": "~1.0.0",
+                "darkstar/payload": "~1.0.0",
+                "darkstar/router": "~1.0.0",
+                "ext-json": "*",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkStar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zsolt Sándor",
+                    "email": "hello@elevenone.space"
+                }
+            ],
+            "description": "Glue for DarkStar",
+            "homepage": "https://elevenone.space",
+            "keywords": [
+                "action-domain-responder",
+                "adr",
+                "darkstar",
+                "elevenone",
+                "php"
+            ],
+            "time": "2020-11-13T06:54:50+00:00"
+        },
+        {
+            "name": "darkstar/http",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkstarphp/darkstar.http.git",
+                "reference": "cf52dbaf6f6a95063ee9cf8e37a9824560f929e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkstarphp/darkstar.http/zipball/cf52dbaf6f6a95063ee9cf8e37a9824560f929e6",
+                "reference": "cf52dbaf6f6a95063ee9cf8e37a9824560f929e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkStar\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zsolt Sándor",
+                    "email": "hello@elevenone.space"
+                }
+            ],
+            "description": "HTTP kernel for DarkStar",
+            "homepage": "https://elevenone.space",
+            "keywords": [
+                "darkstar",
+                "elevenone",
+                "http",
+                "php"
+            ],
+            "time": "2020-11-13T05:33:51+00:00"
+        },
+        {
+            "name": "darkstar/log",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkstarphp/darkstar.log.git",
+                "reference": "cd28a2f0f88f3aaa416f2b5fe92a7d1d14dee7e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkstarphp/darkstar.log/zipball/cd28a2f0f88f3aaa416f2b5fe92a7d1d14dee7e4",
+                "reference": "cd28a2f0f88f3aaa416f2b5fe92a7d1d14dee7e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkStar\\Logger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zsolt Sándor",
+                    "email": "hello@elevenone.space"
+                }
+            ],
+            "description": "Logger for DarkStar",
+            "homepage": "https://elevenone.space",
+            "keywords": [
+                "darkstar",
+                "elevenone",
+                "file-logger",
+                "logger",
+                "null-logger",
+                "php",
+                "psr-3"
+            ],
+            "time": "2020-11-12T21:43:01+00:00"
+        },
+        {
+            "name": "darkstar/payload",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkstarphp/darkstar.payload.git",
+                "reference": "fd2ecf67c9f99af9e19149ac5dbc7392b9fa3721"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkstarphp/darkstar.payload/zipball/fd2ecf67c9f99af9e19149ac5dbc7392b9fa3721",
+                "reference": "fd2ecf67c9f99af9e19149ac5dbc7392b9fa3721",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkStar\\Payload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zsolt Sándor",
+                    "email": "hello@elevenone.space"
+                }
+            ],
+            "description": "Domain Payload Object for DarkStar",
+            "homepage": "https://elevenone.space",
+            "keywords": [
+                "adr",
+                "darkstar",
+                "domain",
+                "elevenone",
+                "payload",
+                "php"
+            ],
+            "time": "2020-11-12T21:25:57+00:00"
+        },
+        {
+            "name": "darkstar/router",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkstarphp/darkstar.router.git",
+                "reference": "a28c0ef0d9a0a6b846970fcf31147ff6bbb7f4cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkstarphp/darkstar.router/zipball/a28c0ef0d9a0a6b846970fcf31147ff6bbb7f4cf",
+                "reference": "a28c0ef0d9a0a6b846970fcf31147ff6bbb7f4cf",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/fast-route": "^1.3",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkStar\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zsolt Sándor",
+                    "email": "hello@elevenone.space"
+                }
+            ],
+            "description": "Router for DarkStar",
+            "homepage": "https://elevenone.space",
+            "keywords": [
+                "darkstar",
+                "elevenone",
+                "php",
+                "router"
+            ],
+            "time": "2020-11-13T06:25:04+00:00"
+        },
+        {
+            "name": "darkstar/view",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkstarphp/darkstar.view.git",
+                "reference": "82d11910dfa3b65cefc82e95dbc8f84ec2bc4bb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkstarphp/darkstar.view/zipball/82d11910dfa3b65cefc82e95dbc8f84ec2bc4bb6",
+                "reference": "82d11910dfa3b65cefc82e95dbc8f84ec2bc4bb6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkStar\\View\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.View Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.View/contributors"
+                }
+            ],
+            "description": "Provides an implementation of the TemplateView and TwoStepView patterns, with support for helpers and for closures as templates, using PHP itself as the templating language.",
+            "homepage": "https://github.com/elevenone/View",
+            "keywords": [
+                "Escape",
+                "escaper",
+                "escaping",
+                "template",
+                "template view",
+                "two step view",
+                "two-step view",
+                "twostep view",
+                "view"
+            ],
+            "time": "2020-11-13T07:21:22+00:00"
+        },
+        {
+            "name": "nikic/fast-route",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35|~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2018-02-13T20:26:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
